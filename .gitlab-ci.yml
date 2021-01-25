@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+pages:
+  image: node:12
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp -v ./*.html ./*.css public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - develop
