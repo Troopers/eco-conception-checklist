@@ -2,7 +2,7 @@ stages:
   - deploy
 
 pages:
-  image: node:12
+  image: alpine:3.11
   stage: deploy
   script:
     - mkdir -p public
