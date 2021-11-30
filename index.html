@@ -70,33 +70,27 @@
     
         <h3 id="back"v>⚒️ Dev back</h3>
             <ul>
-                <li>Mettre en place des caches</li> 
+                <li>Mettre en place des caches :
+                <ul>
+                    <li>Stocker les données statiques localement</li>
+                    <li>Bytecode</li>
+                    <li>données calculées souvent utilisées</li>
+                </ul>
+                </li>
+                <li>Mettre les caches entièrement en RAM (opcode et kvs)</li>
                 <li>Limiter le nombre de requêtes HTTP</li>
-                <li>Stocker les données statiques localement</li>
                 <li>Choisir les technologies les plus adaptées</li>
-                <li>Limiter le recours aux plugins et API</li>
                 <li>Favoriser les pages statiques</li>
                 <li>Créer une architecture applicative modulaire</li>
-                <li>Utiliser un framework ou développer sur mesure</li>
-                <li>Utiliser certains forks applicatifs orientés "performance"</li>
                 <li>Choisir un format de données adapté</li>
-                <li>Limiter le nombre de domaine servant les ressources</li>
-                <li>Mettre en cache le Bytecode</li>
+                <li>Limiter le nombre de domaines servant les ressources, à l'exception d'un domaine sans cookies pour héberger les ressources (CSS/JS)</li>
                 <li>Utiliser un système de templating (Smarty, Twig)</li>
-                <li>Utiliser tous les niveaux de cache du CMS</li>
-                <li>Générer les PDF en dehors du CMS</li>
-                <li>Redimensionner les images en dehors du CMS
-                <li>Encoder les sons en dehors du CMS
-                <li>Mettre en cache les données calculées souvent utilisées</li>
+                <li>Redimensionner les images en dehors du CMS</li>
                 <li>Favoriser HSTS Preload list aux redirections 301</li>
                 <li>Utiliser des serveurs virtualisés</li>
-                <li>Optimiser l'efficacité énergétique des serveurs</li>
-                <li>Installer le minimum requis sur le serveur</li>
-                <li>Mettre les caches entièrement en RAM (opcode et kvs)</li>
+                <li>Installer le minimum requis sur le serveur, limiter le recours aux plugins et API, à l'exception des forks applicatifs orientés "performance"</li>
                 <li>Stocker les données dans le cloud</li>
-                <li>Héberger les ressources (CSS/JS) sur un domaine sans cookie</li>
                 <li>Ne pas générer de page 404</li>
-
             </ul>
         
         <h3 id="hebergement">🏡 Hébergement</h3>
